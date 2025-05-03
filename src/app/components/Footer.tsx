@@ -2,14 +2,14 @@
 
 export default function Footer() {
   return (
-    <footer className="mt-12 p-8 backdrop-blur-xl bg-gray-950/70 border border-gray-700/30 rounded-3xl shadow-2xl text-gray-200 transition-all duration-300">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+    <footer className="mt-12 p-4 sm:p-8 backdrop-blur-xl bg-gray-950/70 border border-gray-700/30 rounded-3xl shadow-2xl text-gray-200 transition-all duration-300">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 text-center md:text-left">
         {/* Brand Section */}
         <div>
           <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 mb-3">
             OpenTech360
           </h2>
-          <p className="text-sm text-gray-400">Your source for cutting-edge tech insights.</p>
+          <p className="text-sm text-gray-400">Open Source cutting-edge tech insights.</p>
         </div>
 
         {/* Navigation Links */}
@@ -72,11 +72,11 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start w-full">
             <input
               type="email"
               placeholder="Subscribe to our newsletter"
-              className="px-4 py-2 rounded-l-lg bg-gray-800/50 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+              className="w-full max-w-[250px] px-4 py-2 rounded-l-lg bg-gray-800/50 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
               aria-label="Newsletter subscription"
             />
             <button
